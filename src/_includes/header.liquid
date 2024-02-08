@@ -4,6 +4,7 @@
       <li><a href="/">Home</a></li>
       {% for i in collections.primary %}
       <li><a href="{{i.url}}" {% if page.url==i.url %}aria-current="page"{% endif %}>{{i.data.title}}</a>
+        {% if fileslug %}
         <ul>
           {% for item in collections.secondary %}
           {% if i.fileSlug == item.data.fileslug %}
@@ -11,6 +12,7 @@
           {% endif %}
           {% endfor %}
         </ul>
+        {% endif %}
       </li>
       {% endfor %}
     </ul>

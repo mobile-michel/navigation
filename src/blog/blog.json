@@ -1,5 +1,4 @@
 {
-    "layout": "default",
-    "fileslug": "blog",
-    "tags": "secondary"
+    "layout": "blog",
+    "tags": "blog"
 }

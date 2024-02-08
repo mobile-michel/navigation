@@ -1,5 +1,4 @@
 {
-    "layout": "default",
-    "fileslug": "documentation",
-    "tags": "secondary"
+    "layout": "doc",
+    "tags": "doc"
 }
